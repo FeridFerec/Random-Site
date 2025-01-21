@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(15 23 42);
+} 
+img{
+    width: 100%;
+    object-fit: cover;
+}
+main .leftMain{
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(15 23 42);
+    padding-left: 90px;
+    gap: 60px;
+}
+main .leftMain .left1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main .leftMain .left1 a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 27px;
+}
+main .leftMain .left1 h3{
+    color: rgb(226 232 240);;
+    font-family: sans-serif;
+}
+main .leftMain .left1 p{
+    color: #e5e7eb;
+    font-family: sans-serif;
+    width: 300px;
+}
+main .leftMain .left2{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    color: #708090;
+}
+main .leftMain .left2 .border{
+    width: 40px;
+    height: 1px;
+    border-radius: 100%;
+    background-color: #708090;
+    transition: 0.3s all;
+}
+main .leftMain .left2 .left20{
+    display: flex;
+    align-items: center;
+    gap: 7.5px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #708090;
+}
+.pborder{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+main .leftMain .left3{
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    color: #708090;
+}
+main .rightMain{
+    width: 50%;
+    margin-left: 50%;
+    padding-right: 90px;
+    background-color: rgb(15 23 42);
+    display: flex;
+    flex-direction: column;
+    gap: 115px;
+    padding-top: 139px;
+    padding-bottom: 139px;
+}
+main .rightMain #section1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+main .rightMain #section1 p{
+    color: #708090;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+main .rightMain #section1 p a{
+    color: white;
+    text-decoration: none;
+}
+main .rightMain #section1 p a:hover{
+    color: aqua;
+}
+main .rightMain #section1 p #a1:hover{
+    color: red;
+}
+
+main .rightMain #section2 .contaBox{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+main .rightMain #section2 .contaBox .box{
+    display: flex;
+    font-family: sans-serif;
+    transition: 0.5s all;
+}
+main .rightMain #section2 .contaBox .box .lbox h5{
+    width: 145px;
+    margin-top: 2px;
+    color: #708090;
+    font-size: 17px;
+}
+main .rightMain #section2 .contaBox .box .rbox button{
+    padding: 7px 13px;
+    color: aqua;
+    background-color: rgba(13, 31, 61, 0.5);
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+main .rightMain #section2 .contaBox .box .rbox h2{
+    color: white;
+    font-size: 18px;
+}
+main .rightMain #section2 .contaBox .box .rbox h2 i{
+    transition: 1s all;
+}
+main .rightMain #section2 .contaBox .box .rbox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+main .rightMain #section2 .contaBox .box .rbox p{
+    color: #708090;
+}
+main .rightMain #section2 .contaBox .box .rbox .ps{
+    display: flex;
+    gap: 9px;
+}
+#view{
+    color: white;
+    margin-top: 7px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+main #section3 .contaBoxSec3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+main #section3 .contaBoxSec3 .box{
+    display: flex;
+    gap: 25px;
+    row-gap: 30px;
+    font-family: sans-serif;
+    transition: 0.5s all;
+}
+main #section3 .contaBoxSec3 .box .rbox{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 20px;
+}
+main #section3 .contaBoxSec3 .box .lbox{
+    width: 200px;
+    height: 150px !important;
+    margin-top: 4px;
+}
+main #section3 .contaBoxSec3 .box .lbox .img{
+    width: 200px;
+    height: 100px !important;   
+}
+
+main #section3 .contaBoxSec3 .box h2{
+    color: white;
+}
+main #section3 .contaBoxSec3 .box button{
+    padding: 7px 13px;
+    color: aqua;
+    background-color: rgba(13, 31, 61, 0.5);
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+main #section3 .contaBoxSec3 .box p{
+    color: #708090;
+}
+main #section3 .contaBoxSec3 .box #stars{
+    color: white;
+}
+main #section3 .contaBoxSec3 .box #insp{
+    color: white;
+}
+main #section4 h1{
+    color: white;
+    margin-bottom: 15px;
+}
+main #section4 .contaSec4box{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+main #section4 .contaSec4box .box{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    transition: 0.5s all;
+}
+main #section4 .contaSec4box .box .rbox{
+    width: 450px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+main #section4 .contaSec4box .box .lbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main #section4 .contaSec4box .box .lbox{
+    width: 200px !important;
+    height: 150px !important;
+    
+}
+main #section4 .contaSec4box .box .lbox .img{
+    width: 200px;
+    height: 100px !important;
+    margin-top: 10px;
+}
+#year{
+    color: #708090;
+}
+h2{
+    font-weight: 200;
+}
+
+
+@media(max-width:780px){
+    main .leftMain{
+        position: static;
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main .rightMain{
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+    main .leftMain .left1 p{
+        width: fit-content;
+    }
+    main .rightMain #section2 .contaBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .rightMain #section2 .contaBox .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    main .rightMain #section3 .contaBoxSec3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .rightMain #section3 .contaBoxSec3 .box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    main .rightMain #section4 .contaSec4box .box{
+        display: flex;
+        text-align: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+@media(max-width:650px){
+    p {
+        width: fit-content;
+    }
+}
